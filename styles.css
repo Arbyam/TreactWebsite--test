@@ -179,6 +179,11 @@ width: 40px;
     border-bottom-width: 0px;
     font-weight: bold;
 }
+.btn:hover,
+.nav__link--primary:hover{
+    background-color:#3d3eff;
+    
+}
 .main__para{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -287,8 +292,17 @@ width: 40px;
     max-width: 100%;
 }
 
-.steps__img{
+.steps__img--wrapper{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps__img{
+  
+   width: 500px;
+   height:300px;
 }
 
 .step__number{
@@ -297,8 +311,8 @@ width: 40px;
 }
 .step{
     display: flex;
-    padding: 10px 24px;
-    margin-top: 46px;
+    padding: 5px 10px;
+    margin-top: 32px;
 }
 
 .step__words{
@@ -306,3 +320,184 @@ width: 40px;
     flex-direction: column;
     padding-left: 24px;
 }
+
+
+.values__container{
+    display: flex;
+    max-width: 100%;
+    margin-top: 100px;
+    display: flex;
+    max-height: 100%;
+    height: 600px;
+    align-items: flex-start;
+   
+}
+
+.values{
+    
+    width: 100%;
+    margin-right: 24px;
+    padding: 24px;
+}
+
+.values__img{
+    width: 100%;
+}
+
+.affordable__professionalism--wrapper{
+    display: flex;
+    padding-top: 24px;
+    line-height: 1.5rem;
+}
+
+.values h2{
+    padding-bottom: 24px;
+}
+.values p{
+    padding-top: 24px;
+}
+.values button{
+  margin-left: -8px;
+  margin-top: 24px;
+}
+.bag__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    
+}
+.bag__wrapper h2{
+    margin-left: -32px;
+}
+
+
+.pricing--wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans{
+    height: 600px;
+    width: 100%;
+    padding-top: 24px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    flex-direction: wrap;
+}
+
+
+.plan{
+    height: 100%;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-width: 1px;
+    margin:24px 24px;
+    padding: 10px 24px;
+    
+}
+
+.action__btn--container{
+    
+   margin-top: 10px;
+    height: calc(100%/3);
+    width:380px;
+    border-top: 2px solid #e5e7eb;
+}
+
+.plan__personal{
+ border-top: 10px solid  rgb(129, 230, 217);
+
+
+    border-left: 2px solid #e5e7eb;
+    border-right: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
+    width: 100%;
+    max-width: 24rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+  
+
+
+}
+
+.buy__now--btn{
+    margin-top: 50px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+   
+    border-radius: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    font-size: 0.875rem;
+        transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+   
+    font-weight: 700;
+    border-radius: 4rem;
+ 
+    background-color: rgba(100,21,255,var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+    transition-duration: 300ms;
+
+
+}
+.buy__now--btn:hover{
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  
+    --tw-bg-opacity: 1;
+    background-color: rgba(100,21,255,var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+    transition-duration: 300ms;
+}
+.plans__header{
+    border-bottom: 2px solid #e5e7eb;
+    width: 100%;
+    height: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.plan__individual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plan__individual h3{
+    padding:24px ;
+}
+.plan__individual p{
+    padding: 6px;
+}
+.plan__business{
+    border-left: 2px solid #e5e7eb;
+    border-right: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
+    width: 100%;
+    max-width: 24rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+
+}
+
